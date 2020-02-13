@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #fdc9d1 !important;
+    background: #fdc2ba !important;
     font-size: 12px;
     /* overflow: auto */
 }
@@ -88,7 +88,7 @@ nav {
     color: #666
 }
 .bg-color {
-    background: #fdc9d1 !important;
+    background: #fdc2ba !important;
 }
 #storybutton {
     text-align: center;
