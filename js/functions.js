@@ -52,7 +52,7 @@ function startHeartAnimation() {
 			b.push(h);
 			garden.createRandomBloom(h[0], h[1])
 		}
-		if (d >= 40) {
+		if (d >= 30) {
 			// clearInterval(a);
 			showMessages();
 		} else {
@@ -104,7 +104,7 @@ function timeElapse(c) {
 }
 function showMessages() {
 	adjustWordsPosition();
-	$("#messages").fadeIn(500, function () {
+	$("#messages").fadeIn(50, function () {
 		showLoveU()
 	})
 }
